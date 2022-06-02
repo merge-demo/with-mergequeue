@@ -1,5 +1,7 @@
+const AllowedNames = ["Heisenberg", "Walter"]
+
 function sayMyName(name: string): void {
-  if (name === "Heisenberg") {
+  if (AllowedNames.includes(name)) {
     return "You're right 👍";
   } else {
     return "You're wrong 👎";
