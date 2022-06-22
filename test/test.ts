@@ -8,6 +8,6 @@ describe("lib", function () {
 
     it("should return a thumbs down for the wrong name", function () {
       expect(sayMyName("Walter")).to.eq("You're wrong 👎");
-    })
+    });
   });
 });
