@@ -1,13 +1,12 @@
 import { expect } from "chai";
-import sayMyName from "../lib.ts";
-describe("lib", function () {
-  describe("#sayMyName()", function () {
-    it("should return a thumbs up for the right name", function () {
-      expect(sayMyName("Heisenberg")).to.eq("You're right 👍");
-    });
+import isValidUser from "../lib.ts";
 
-    it("should return a thumbs down for the wrong name", function () {
-      expect(sayMyName("Walter")).to.eq("You're wrong 👎");
-    })
+describe("lib", function () {
+  describe("#isValidUser()", function () {
+    it("should return true for valid users", function () {
+      expect(isValidUser("Eli")).to.eq(true);
+    });
   });
 });
+
+
