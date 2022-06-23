@@ -1,3 +1,3 @@
-import sayMyName from "./lib";
+import isValidUser from "./lib";
 
-sayMyName("Heisenberg");
+isValidUser("Eli");
