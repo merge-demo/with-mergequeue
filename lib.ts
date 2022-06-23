@@ -1,9 +1,9 @@
-function sayMyName(name: string): void {
-  if (name === "Heisenberg") {
-    return "You're right 👍";
+function isValidUser(name: string): boolean {
+  if (name === "Eli") {
+    return true;
   } else {
-    return "You're wrong 👎";
+    return false;
   }
 }
 
-export default sayMyName;
+export default isValidUser;
