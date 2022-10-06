@@ -6,6 +6,10 @@ describe("lib", function () {
     it("should return true for valid users", function () {
       expect(isValidUser("Eli")).to.eq(true);
     });
+    
+    it("should return true for valid users", function () {
+      expect(isValidUser("Matt")).to.eq(true);
+    });
   });
 });
 
