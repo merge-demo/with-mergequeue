@@ -7,3 +7,6 @@ lint:
     - gitleaks@8.8.8
     - markdownlint@0.31.1
     - prettier@2.7.1
+merge:
+  required_statuses:
+    - Test
